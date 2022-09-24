@@ -13,15 +13,6 @@
 - Software: Python 3.9.12, Jupyter Notebook
 - 
 ## Summary
-The analysis of the election show that:
--There were "x" votes cast in the election
--The candidate were:
-  - Charles Casper Stockham
-  - Diana DeGette
-  - Raymon Anthony Doane
-  
-- The candidate results were:
-  - Charles Casper Stockham:23.0% (85,213)
-  - Diana DeGette:73.8% (272,892)
-  - Raymon Anthony Doane:3.1% (11,606)
-
+- I discoverred that to convert a series into a dataframe.
+- I can either use [] or to_frame() also discoverred that sort_values can be used for both series and dataframe.
+- For the series -sort_value(ascending = T/F) and for DataFrame sortvalues("",ascending = T/F)
